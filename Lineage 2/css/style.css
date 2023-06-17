@@ -1,0 +1,262 @@
+
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font: 16px "Lato", "Times New Roman", sans-serif;
+  height: 100%;
+  background-color: #000;
+}
+
+div.back_container .back_text {
+  color: #fff;
+}
+
+footer {
+  background-color: #000;
+  min-height: 180px;
+  color: #999;
+  padding: 40px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+
+/* **** ID **** */
+
+#main {
+  padding: 20px;
+  contain: cover;
+  background-repeat: no-repeat;
+
+}
+
+#main img {
+  height: 40em;
+}
+
+#meu_carrossel {
+  width: 100%;
+}
+
+
+#middle {
+  margin: 2px 0 #1c1c1c;
+}
+
+#sobre {
+  margin: 50px 0;
+}
+
+#sobre p {
+  text-align: justify;
+  color: #999;
+  font-size: 18px;
+  line-height: 1.8;
+  padding-top: 20px;
+}
+
+
+/* **** CLASS **** */
+
+a.selected {
+  color: #fff;
+}
+
+.lista_footer {
+  margin-top: 30px;
+}
+
+.link_menu {
+  margin-top: 20px;
+  padding-top: 2em; 
+  text-transform: uppercase;
+  font-size: 16px; 
+}
+
+.link_menu a {
+  color: #ff0000 !important;
+  padding: 10px;
+  text-decoration: none !important;
+  font-weight: bolder;
+  transition: transform .2s ease;
+}
+
+.link_menu a.selected {
+  color: #fff !important;
+}
+
+.link_menu a:hover {
+  background-color: #2801013c !important;
+  text-shadow: 0 0 4px #fa0000be;
+  border-radius: 5px;
+  border: 1px solid black;
+  transform: scale(1.2);
+}
+
+.center {
+  text-align: center
+}
+
+.row {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.thumb {
+  background-color: #FFFAFA;
+}
+
+.back_anuncios {
+  margin: 0;
+  padding: 0;
+  height: 72%;
+  background-image: url(../img/anuncio_back2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.anuncios {
+  border: 2px outset;
+  padding: 25px;
+}
+
+.sett {
+  position: relative;
+  min-width: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.anuncios_centrais {
+  margin: 2em;
+}
+
+
+/* ***** PARALAX e ANUNCIOS PRINCIPAIS ***** */
+
+.box1, .box2, .box3, .box4 {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+
+.box1 {
+  background-image: url(../img/back10.jpg);
+}
+
+.box2 {
+  background-image: url(../img/back3.jpg);
+}
+
+.box3 {
+  background-image: url(../img/back12.jpg);
+}
+
+.box4 {
+  background-image: url(../img/back4.jpg);
+}
+
+.container_colocados {
+  width: 250px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: center;
+}
+/* **** PAINEL DE USUARIO **** */
+
+#container_usuario {
+  width: 400px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: center;
+}
+
+#container_usuario img {
+  width: 120px;
+  height: 120px;
+  margin-top: -60px;
+  margin-bottom: 30px;
+}
+
+input {
+  height: 40px;
+  width: 80%;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding-left: 40px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+input.email {
+  background-image: url(../img/icone-usuario.png);
+}
+
+input.senha {
+  background-image: url(../img/icone-cadeado.png);
+}
+
+input.submit {
+  color: #fff;
+  background-color: #f79300;
+  border: 2px solid #db7d00;
+  padding: 5px 20px;
+  height: 45px;
+  width: 90%;
+
+  background: -webkit-linear-gradient(to bottom, #fa0000, #f60000);
+  background: -moz-linear-gradient(to bottom, #fa0000, #f60000);
+  background: -o-linear-gradient(to bottom, #fa0000, #f60000);
+  background: linear-gradient(to bottom, #fa0000, #f60000);
+
+}
+
+
+/* ----------------------------------------------------------------- */
+
+
+
+/*
+>> Opacidade:
+CSS
+  img { filter: opacity(50%); }
+HTML
+  <img src="imagem.jpg" alt="descrição da imagem"> 
+
+>> Blur (efeito Desfoque):
+CSS
+  img { filter: blur(2px); }
+HTML
+  <img src="imagem.jpg" alt="descrição da imagem">
+
+*/
